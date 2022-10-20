@@ -1,7 +1,4 @@
-public class Gerente {
-    private String nome;
-    private String cpf;
-    private double salario;
+public class Gerente extends Funcionario {
     private int senha;
     private int numeroDeFuncionariosGerenciados;
 
@@ -15,5 +12,5 @@ public class Gerente {
         }
     }
 
-    // outros métodos
+    // setter da senha omitido
 }
