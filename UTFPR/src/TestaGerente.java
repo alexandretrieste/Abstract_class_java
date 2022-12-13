@@ -3,9 +3,10 @@ public class TestaGerente {
         Gerente gerente = new Gerente();
 
         // podemos chamar métodos do Funcionario:
-        gerente.setNome("Jhon Doe");
+        gerente.setNome("John Doe");
 
         // e também métodos do Gerente!
-        gerente.setSenha(1243);
+        gerente.setSenha(12345678);
+
     }
 }
